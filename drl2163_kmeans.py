@@ -16,7 +16,7 @@ def sum_pixels(cont_lst, img):
             best_rect = [x, y, w, h]
     return max_count, best_rect
 
-#add comment
+
 def get_box(img):
     #read in image to bgr and hsv spaces
     hsv_image = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
